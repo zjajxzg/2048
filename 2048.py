@@ -9,15 +9,16 @@ def display(arr):
     return arr
 
 def init():
-    x = random.randint(0,3)
-    y = random.randint(0,3)
     arr = ([0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0])
-    for i in range(2):
+    flag = 0
+    while flag < 2:
         x = random.randint(0, 3)
         y = random.randint(0, 3)
         if arr[x][y] == 0:
             arr[x][y] =2
+            flag += 1
     return arr
+
 
 def add_random(arr):
     list = []
