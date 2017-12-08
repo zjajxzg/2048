@@ -38,7 +38,7 @@ def display(arr):
             elif arr[i][j] == 64:
                 Button(root,text = arr[i][j],width = 8,height = 3,bg = '#FFAEB9').grid(row = i,column  =j)
             elif arr[i][j] == 128:
-                Button(root,text = arr[i][j],width = 8,height = 3,bg = 'FF8C69').grid(row = i,column  =j)
+                Button(root,text = arr[i][j],width = 8,height = 3,bg = '#FF8C69').grid(row = i,column  =j)
             elif arr[i][j] == 256:
                 Button(root,text = arr[i][j],width = 8,height = 3,bg = '#FF8247').grid(row = i,column  =j)
             elif arr[i][j] == 512:
